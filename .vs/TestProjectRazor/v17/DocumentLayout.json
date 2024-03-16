@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\C#projects\\TestProjectRazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\testprojectrazor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\testprojectrazor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TestProjectRazor\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-16T03:25:26.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestProjectRazor",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+              "RelativeDocumentMoniker": "TestProjectRazor\\TestProjectRazor.csproj",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+              "RelativeToolTip": "TestProjectRazor\\TestProjectRazor.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T03:14:11.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "TestProjectRazor\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T03:07:54.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Models\\Course.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Models\\Course.cs",
+              "RelativeToolTip": "TestProjectRazor\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T03:06:00.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Models\\Enrollment.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Models\\Enrollment.cs",
+              "RelativeToolTip": "TestProjectRazor\\Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T03:04:15.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Startup.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Startup.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Startup.cs",
+              "RelativeToolTip": "TestProjectRazor\\Startup.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T02:40:05.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
