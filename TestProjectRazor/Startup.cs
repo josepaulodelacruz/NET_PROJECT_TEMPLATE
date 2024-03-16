@@ -10,6 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using TestProjectRazor.Data;
+using Microsoft.EntityFrameworkCore;
+//using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace TestProjectRazor
 {
@@ -32,7 +35,13 @@ namespace TestProjectRazor
             else
             {
                 //dev db
+                services.AddDbContext<ApplicationDBContext>(options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("Development")));
+
+
             }
+
 
 
             services.Configure<CookiePolicyOptions>(options =>
