@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using TestProjectRazor.Data;
 using Microsoft.EntityFrameworkCore;
+using TestProjectRazor.Services;
 //using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace TestProjectRazor
@@ -42,8 +43,6 @@ namespace TestProjectRazor
 
             }
 
-
-
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -51,6 +50,8 @@ namespace TestProjectRazor
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //Dependecy Service Injection
+            services.AddSingleton<IUserService, UserService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
