@@ -50,6 +50,9 @@ namespace TestProjectRazor
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //inject configuration settings
+            services.AddSingleton<IConfiguration>(Configuration);
+
             //Dependecy Service Injection
             services.AddSingleton<IUserService, UserService>();
 

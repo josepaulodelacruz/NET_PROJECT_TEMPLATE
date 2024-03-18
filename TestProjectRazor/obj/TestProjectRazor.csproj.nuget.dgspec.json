@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj": {}
+    "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj": {}
   },
   "projects": {
-    "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj": {
+    "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+        "projectUniqueName": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj",
         "projectName": "TestProjectRazor",
-        "projectPath": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\obj\\",
+        "projectPath": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+        "packagesPath": "C:\\Users\\jmdelacruz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmdelacruz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net472": {
@@ -92,7 +95,7 @@
               "version": "[3.1.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

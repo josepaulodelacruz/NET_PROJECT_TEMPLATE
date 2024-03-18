@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TestProjectRazor.Models;
 using TestProjectRazor.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,31 +15,46 @@ namespace TestProjectRazor.API.User
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IConfiguration _config;
 
-        public UserController(IUserService userService)
+        public UserController(IConfiguration config, IUserService userService)
         {
+            _config = config;
             _userService = userService;
         }
 
 
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<IEnumerable<string>> Get()
+        public async Task<ActionResult<IEnumerable<TestProjectRazor.Models.User>>> Get()
         {
-            return await _userService.Get();
+            IEnumerable users = await _userService.Get(_config);
+            return new OkObjectResult(users);
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<TestProjectRazor.Models.User>> Get(int id)
         {
-            return "value";
+            TestProjectRazor.Models.User user = await _userService.GetById(_config, id);
+
+            if(user.ID == 0)
+            {
+                return NotFound();
+            }
+
+            return new OkObjectResult(user);
+
         }
 
         // POST api/<UserController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async void Post(TestProjectRazor.Models.User userParam)
         {
+            var result = await _userService.AddUser(_config);
+
+
+
         }
 
         // PUT api/<UserController>/5
