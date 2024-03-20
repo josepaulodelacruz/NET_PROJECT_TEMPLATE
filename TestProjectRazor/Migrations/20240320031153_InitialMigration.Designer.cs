@@ -9,8 +9,8 @@ using TestProjectRazor.Data;
 namespace TestProjectRazor.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20240316163108_Initial")]
-    partial class Initial
+    [Migration("20240320031153_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,9 +28,11 @@ namespace TestProjectRazor.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");

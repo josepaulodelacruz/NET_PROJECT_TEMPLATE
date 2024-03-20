@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.Extensions.Configuration;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -14,6 +15,10 @@ namespace TestProjectRazor.Services
         Task<IEnumerable<User>> Get(IConfiguration config);
         Task<User> GetById(IConfiguration config, int id);
         Task<User> AddUser(IConfiguration config, User user);
+
+        Task<User> UpdateUser(IConfiguration config, User user, int id);
+
+        Task<int> DeleteUserById(IConfiguration config, int id);
     }
 
     public class UserService : IUserService
@@ -107,11 +112,108 @@ namespace TestProjectRazor.Services
 
         public async Task<User> AddUser(IConfiguration config, User user)
         {
-            return new User()
+
+            try
             {
-                Email = "test",
-                Name = "John Doe",
-            };
+                using (SqlConnection conn = new SqlConnection(config.GetConnectionString("Development")))
+                {
+                    conn.Open();
+
+                    string query = "INSERT INTO [USER]" +
+                        "([Email], [Name])" +
+                        "VALUES" +
+                        "(@Email, @Name)";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+
+                        cmd.Parameters.AddWithValue("@Email", user.Email);
+                        cmd.Parameters.AddWithValue("@Name", user.Name);
+
+                        int result = cmd.ExecuteNonQuery();
+
+                        Debug.WriteLine("Inserting to table...");
+                        Debug.WriteLine(result);
+                    }
+
+                };
+
+                return user;
+            }
+            catch(SqlException ex)
+            {
+                Debug.WriteLine(ex.ToString());
+                return new User();
+            }
+        }
+
+        public async Task<User> UpdateUser(IConfiguration config, User updatedUser, int id)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(config.GetConnectionString("Development")))
+                {
+                    conn.Open();
+
+                    string query = "UPDATE [USER] SET [Email] = @Email, [Name] = @Name WHERE ID = @Id";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", id);
+                        cmd.Parameters.AddWithValue("@Email", updatedUser.Email);
+                        cmd.Parameters.AddWithValue("@Name", updatedUser.Name);
+
+                        int result = cmd.ExecuteNonQuery();
+
+                        Debug.WriteLine("Show result query");
+                        Debug.WriteLine(result);
+
+                        if(result == 0)
+                        {
+                            return new User();
+                        }
+                    }
+
+                }
+
+                updatedUser.ID = id;
+
+                return updatedUser;
+            }
+            catch(SqlException ex)
+            {
+                Debug.WriteLine(ex.ToString());
+                return new User();
+            }
+
+        }
+        public async Task<int> DeleteUserById(IConfiguration config, int id)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(config.GetConnectionString("Development")))
+                {
+                    conn.Open();
+
+                    string query = "DELETE FROM [USER] WHERE ID = @Id";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", id);
+
+                        int result = cmd.ExecuteNonQuery();
+
+                        return result;
+                    }
+                }
+
+            }
+            catch(SqlException ex)
+            {
+                Debug.WriteLine(ex.ToString());
+                return 0; // failed
+            }
+
         }
 
     }
