@@ -1,26 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\",
+  "WorkspaceRootPath": "D:\\projects\\C#projects\\TestProjectRazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PABINITD0047L/DEV_DB/True/SqlTable/dbo.USER.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|c:\\users\\jmdelacruz\\desktop\\projects\\testapprazor\\testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|c:\\users\\jmdelacruz\\desktop\\projects\\testapprazor\\testprojectrazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jmdelacruz\\AppData\\Local\\Temp\\5p4hu3ja..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jmdelacruz\\AppData\\Local\\Temp\\5p4hu3ja..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jmdelacruz\\AppData\\Local\\Temp\\5p4hu3ja..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_08NFDQD_SQLEXPRESS/DEV_DB/True/SqlTable/dbo.USER.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,53 +17,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SQLQuery5.sql ",
-              "DocumentMoniker": "C:\\Users\\jmdelacruz\\AppData\\Local\\Temp\\5p4hu3ja..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\5p4hu3ja..sql",
-              "ToolTip": "SQLQuery5.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-20T06:24:57.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.USER [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/PABINITD0047L/DEV_DB/True/SqlTable/dbo.USER.sql",
-              "ToolTip": "dbo.USER [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-20T05:25:23.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TestProjectRazor\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\Services\\UserService.cs",
-              "RelativeToolTip": "TestProjectRazor\\Services\\UserService.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMQAAAAAAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\API\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\API\\User\\UserController.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\API\\User\\UserController.cs",
+              "RelativeToolTip": "TestProjectRazor\\API\\User\\UserController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:47:39.085Z",
+              "WhenOpened": "2024-03-23T02:50:19.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\API\\User\\UserController.cs",
-              "RelativeDocumentMoniker": "TestProjectRazor\\API\\User\\UserController.cs",
-              "ToolTip": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\API\\User\\UserController.cs",
-              "RelativeToolTip": "TestProjectRazor\\API\\User\\UserController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAQwEwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:19:55.066Z",
+              "Title": "dbo.USER [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_08NFDQD_SQLEXPRESS/DEV_DB/True/SqlTable/dbo.USER.sql",
+              "ToolTip": "dbo.USER [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-23T02:50:06.839Z",
               "EditorCaption": ""
             }
           ]

@@ -11362,23 +11362,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jmdelacruz\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+      "projectUniqueName": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
       "projectName": "TestProjectRazor",
-      "projectPath": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\TestProjectRazor.csproj",
-      "packagesPath": "C:\\Users\\jmdelacruz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmdelacruz\\Desktop\\Projects\\TestAppRazor\\TestProjectRazor\\obj\\",
+      "projectPath": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\TestProjectRazor.csproj",
+      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jmdelacruz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11386,7 +11382,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
@@ -11456,7 +11452,7 @@
             "version": "[3.1.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
