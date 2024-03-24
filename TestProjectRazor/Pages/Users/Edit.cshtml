@@ -1,0 +1,23 @@
+﻿@page "{id:int}"
+@model TestProjectRazor.Pages.Users.EditModel
+@{
+}
+
+<h2>Edit</h2>
+
+<div>
+    <a asp-page="./Index">Back To User List</a>
+</div>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="@Model.User.Email">@Html.Display(Model.User.Email)</label>
+        <input type="email" class="form-control" asp-for="User.Email" placeholder="@Html.Display(Model.User.Email)" >
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label asp-for="User.Name">@Html.Display(Model.User.Name)</label>
+        <input class="form-control" asp-for="User.Name">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

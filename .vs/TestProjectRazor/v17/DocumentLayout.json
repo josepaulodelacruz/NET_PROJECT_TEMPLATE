@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "D:\\projects\\C#projects\\TestProjectRazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1\\AppData\\Local\\Temp\\0whbu3eu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\pages\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\pages\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\pages\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\pages\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\pages\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\pages\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|d:\\projects\\c#projects\\testprojectrazor\\testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA4B14A-4ADC-4C2A-B04D-269D2BD4AB86}|TestProjectRazor\\TestProjectRazor.csproj|solutionrelative:testprojectrazor\\api\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1\\AppData\\Local\\Temp\\0whbu3eu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1\\AppData\\Local\\Temp\\0whbu3eu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
@@ -36,6 +44,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Pages\\Users\\Edit.cshtml",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Edit.cshtml",
+              "RelativeToolTip": "TestProjectRazor\\Pages\\Users\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T04:41:46.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "TestProjectRazor\\Pages\\Users\\Edit.cshtml.cs",
+              "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Edit.cshtml.cs",
+              "RelativeToolTip": "TestProjectRazor\\Pages\\Users\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T04:21:48.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\1\\AppData\\Local\\Temp\\0whbu3eu..sql",
               "ToolTip": "SQLQuery1.sql *",
@@ -45,13 +79,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "TestProjectRazor\\Pages\\Users\\Index.cshtml",
               "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Index.cshtml",
               "RelativeToolTip": "TestProjectRazor\\Pages\\Users\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBwAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-24T03:09:57Z",
               "EditorCaption": ""
@@ -71,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "TestProjectRazor\\Pages\\Users\\Index.cshtml.cs",
               "ToolTip": "D:\\projects\\C#projects\\TestProjectRazor\\TestProjectRazor\\Pages\\Users\\Index.cshtml.cs",
               "RelativeToolTip": "TestProjectRazor\\Pages\\Users\\Index.cshtml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T02:31:40.781Z",
               "EditorCaption": ""
