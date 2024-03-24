@@ -1,0 +1,39 @@
+﻿@page
+@model TestProjectRazor.Pages.Users.IndexModel
+@{
+<style scoped>
+ul, li {
+    list-style: none;
+}
+</style>
+}
+
+<div class="container row-no-gutters" style="padding: 0; margin: 0">
+
+    <div class="row row-no-gutters" style="padding-top: 0px;">
+        <span class="col-xs-11">Users List</span>
+        <a >Add User</a>
+    </div>
+
+    
+
+    <ul class="container" style="padding: 0;">
+        @if(Model.ListOfUsers != null)
+        {
+            <form method="post">
+                @foreach(var User in Model.ListOfUsers)
+                {
+                 <li class="row row-no-gutters" style="padding: 0; margin: 0;">
+                    <p class="col-xs-11">@User.Name</p>
+                    <div class="row row-no-gutters">
+                        <a href="">Edit</a>
+                        <button type="submit" asp-page-handler="Delete" asp-route-id="@User.ID">Delete</button>
+                    </div>
+                </li>
+                }
+            </form>
+            
+        }
+    </ul>
+    
+</div>

@@ -366,3 +366,4 @@ C:\Users\jmdelacruz\Desktop\Projects\TestAppRazor\TestProjectRazor\obj\Debug\net
 C:\Users\jmdelacruz\Desktop\Projects\TestAppRazor\TestProjectRazor\obj\Debug\net472\TestProj.DD4D2F75.Up2Date
 C:\Users\jmdelacruz\Desktop\Projects\TestAppRazor\TestProjectRazor\obj\Debug\net472\TestProjectRazor.exe
 C:\Users\jmdelacruz\Desktop\Projects\TestAppRazor\TestProjectRazor\obj\Debug\net472\TestProjectRazor.pdb
+D:\projects\C#projects\TestProjectRazor\TestProjectRazor\obj\Debug\net472\Razor\Pages\Users\Index.cshtml.g.cs
