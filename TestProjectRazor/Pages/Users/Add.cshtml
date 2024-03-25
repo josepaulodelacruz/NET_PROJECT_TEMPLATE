@@ -1,0 +1,29 @@
+﻿@page
+@model TestProjectRazor.Pages.Users.AddModel
+@{
+}
+
+<h2>Add User</h2>
+<hr />
+
+<div class="container">
+    <form method="post">
+
+        <div class="form-group" >
+            <label asp-for="NewUser.Email">Email</label>
+            <input asp-for="NewUser.Email" class="form-control"/>
+            <span asp-validation-for="NewUser.Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewUser.Name">Name</label>
+            <input asp-for="NewUser.Name" class="form-control"/>
+            <span asp-validation-for="NewUser.Name" class="text-danger"></span>
+        </div>
+
+        <input value="Create" type="submit" class="btn btn-primary right" style="float: right;"/>
+
+    </form>
+
+
+
+</div>

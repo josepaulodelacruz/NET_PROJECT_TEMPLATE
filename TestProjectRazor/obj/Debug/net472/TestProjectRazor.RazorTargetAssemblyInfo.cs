@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestProjectRazor")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ba1c35bc95367dbfb64d84abaf205f5fc700a5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6b74c277bd6b192d2d3ce83ae17f8eb638d2ba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestProjectRazor.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
