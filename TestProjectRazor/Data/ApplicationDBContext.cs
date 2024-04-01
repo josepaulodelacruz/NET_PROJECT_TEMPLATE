@@ -11,9 +11,18 @@ namespace TestProjectRazor.Data
         }
         
         public DbSet<User> User { get; set; }
+        public DbSet<Post> Post { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().ToTable("USER");
+
+            modelBuilder.Entity<Post>().ToTable("POSTS");
+            modelBuilder.Entity<User>().ToTable("USERS");
+
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.Posts)
+                .WithOne(u => u.Author);
+
+                
         }
 
 

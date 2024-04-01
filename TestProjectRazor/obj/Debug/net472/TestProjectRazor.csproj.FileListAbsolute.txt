@@ -369,3 +369,4 @@ C:\Users\jmdelacruz\Desktop\Projects\TestAppRazor\TestProjectRazor\obj\Debug\net
 D:\projects\C#projects\TestProjectRazor\TestProjectRazor\obj\Debug\net472\Razor\Pages\Users\Index.cshtml.g.cs
 D:\projects\C#projects\TestProjectRazor\TestProjectRazor\obj\Debug\net472\Razor\Pages\Users\Edit.cshtml.g.cs
 D:\projects\C#projects\TestProjectRazor\TestProjectRazor\obj\Debug\net472\Razor\Pages\Users\Add.cshtml.g.cs
+D:\projects\C#projects\TestProjectRazor\TestProjectRazor\obj\Debug\net472\Razor\Pages\Users\View.cshtml.g.cs

@@ -24,8 +24,9 @@ ul, li {
                 @foreach(var User in Model.ListOfUsers)
                 {
                  <li class="row row-no-gutters" style="padding: 0; margin: 0;">
-                    <p class="col-xs-11">@User.Name</p>
+                    <p class="col-xs-10">@User.Name</p>
                     <div class="row row-no-gutters">
+                        <a asp-page="./View">View</a>
                         <a asp-page="./Edit" asp-route-id="@User.ID">Edit</a>
                         <button type="submit" asp-page-handler="Delete" asp-route-id="@User.ID">Delete</button>
                     </div>
